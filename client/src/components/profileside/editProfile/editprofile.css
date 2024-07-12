@@ -1,0 +1,30 @@
+.edit-form {
+  border: 1px solid rgb(208, 208, 212);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-edit {
+  border: 1px solid rgb(208, 208, 212);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form-edit input {
+  width: 80%;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.form-edit input:hover {
+  outline: none;
+}

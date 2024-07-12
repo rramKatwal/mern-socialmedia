@@ -1,0 +1,62 @@
+.centraltop {
+  margin: 2px 0px;
+  border: 1px solid rgb(174, 176, 176);
+  padding: 5px;
+  border-radius: 20px;
+  background-color: transparent;
+  position: relative;
+}
+.mind {
+  background: transparent;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+}
+.mind .mind-img {
+  padding-right: 0;
+  margin-top: 8px;
+}
+.thoughts {
+  padding-right: 0px;
+  background-color: rgb(229, 231, 232);
+  margin-top: 1px;
+  border-radius: 10px;
+}
+.thoughts input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.menu .menu-btn {
+  margin-right: 46px;
+  color: aliceblue;
+  background: linear-gradient(to left, #090979, #0644a0);
+}
+
+.c-icon {
+  font-size: 24px;
+  color: rgb(60, 60, 159);
+  margin-right: 4px;
+  cursor: pointer;
+}
+.previewImg {
+  position: relative;
+  margin-left: -20px;
+}
+.previewImg .cross {
+  position: absolute;
+  cursor: pointer;
+  top: -10px;
+  right: 40px;
+  font-size: 1.5rem;
+  color: rgb(60, 60, 159);
+}
+
+.previewImg img {
+  width: 100%;
+  max-height: 20rem;
+  object-fit: contain;
+  border-radius: 10px;
+}

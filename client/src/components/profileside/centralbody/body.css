@@ -1,0 +1,9 @@
+.toogle-btn {
+  outline: none;
+  background: none;
+  font-size: 22px;
+  color: gray;
+}
+.toogle-btn:hover {
+  outline: none;
+}

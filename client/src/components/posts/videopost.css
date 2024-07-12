@@ -1,0 +1,59 @@
+.modal-form {
+  border: 1px solid rgb(174, 176, 176);
+  border-radius: 10px;
+}
+
+.videopost input {
+  width: 93%;
+  padding: 14px;
+  outline: none;
+  border: 1px solid rgb(174, 176, 176);
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: transparent;
+}
+.videopost input:focus {
+  outline: none;
+}
+.post-preview video {
+  width: 93%;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.post-preview img {
+  width: 93%;
+  border-radius: 10px;
+  margin-left: 20px;
+  max-height: 400px;
+}
+.video-post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+/* editpost */
+.editpost-right {
+  position: relative;
+}
+.postsection {
+  height: 100vh;
+}
+
+.postsection img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.postsection video {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.editcontainer img {
+  height: 68px;
+  width: 68px;
+  border-radius: 50%;
+}

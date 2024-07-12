@@ -1,0 +1,18 @@
+.followers-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.followers-section img {
+  margin-top: 14px;
+  margin-left: 20px;
+}
+.followers-section button {
+  padding-right: 10px;
+  margin-top: 13px;
+  background-color: rgb(60, 60, 159);
+  color: aliceblue;
+}
+.followers-section button:hover {
+  outline: 1px solid rgb(60, 60, 159);
+}

@@ -1,0 +1,108 @@
+.register {
+  position: relative;
+  padding: 15px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(174, 176, 176);
+  margin: 218px;
+  margin-top: 9rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 9px 2px black;
+  color: rgb(60, 60, 159);
+}
+
+.reg-form {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.reg-left h1 {
+  color: aliceblue;
+  text-shadow: 5px 5px 2px rgb(60, 60, 159);
+}
+.reg-form input {
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(174, 176, 176);
+}
+
+.reg-button {
+  background-color: rgb(60, 60, 159);
+  color: aliceblue;
+}
+
+.reset {
+  margin-left: 8px;
+}
+
+/* mailform */
+.register-form {
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+  padding: 4px;
+  box-shadow: 10px 10px 9px 2px black;
+  width: 60%;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  margin-top: 9rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 9px 2px black;
+  color: rgb(60, 60, 159);
+}
+.register-form h1 {
+  color: aliceblue;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.inputbox {
+  position: relative;
+  width: 350px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.inputbox input {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  outline: none;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+.inputbox label {
+  position: absolute;
+  padding: 11px;
+  left: 10px;
+  margin-top: 2px;
+  color: aliceblue;
+  font-size: 1em;
+  text-transform: uppercase;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.inputbox label .reg-icon {
+  margin-right: 5px;
+}
+
+.inputbox input:valid ~ label,
+.inputbox input:focus ~ label {
+  transform: translateX(10px) translateY(-14px);
+  background: black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  font-size: 1em;
+  padding: 0 11px;
+  letter-spacing: 4px;
+  margin-bottom: 0px;
+}
+
+.inputbox input:valid,
+.inputbox input:focus {
+  border: 1px solid black;
+}
